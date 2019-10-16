@@ -2,9 +2,9 @@ import React from 'react';
 
 import "./Footer.css";
 
-import FacebookIcon from '../assets/facebook-app-logo.png';
-import InstagramIcon from '../assets/instagram-logo.png';
-import TwitterIcon from '../assets/twitter-logo.png';
+import FacebookIcon from '@app/assets/facebook-app-logo.png';
+import InstagramIcon from '@app/assets/instagram-logo.png';
+import TwitterIcon from '@app/assets/twitter-logo.png';
 
 
 

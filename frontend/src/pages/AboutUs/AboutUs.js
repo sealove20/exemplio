@@ -1,19 +1,19 @@
 import React from 'react';
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
-
 import './AboutUs.css';
 
-import locationIcon from '../assets/locationIcon.svg'
+import locationIcon from 'root/assets/locationIcon.svg'
 
-import PedroGuerra from '../assets/exemplio-team-images/PedroGuerra.jpg';
-import GuilhermeDavid from '../assets/exemplio-team-images/GuilhermeDavid.jpg';
-import BrendaMajor from '../assets/exemplio-team-images/BrendaMajor.jpg';
-import GuilhermeCoube from '../assets/exemplio-team-images/GuilhermeCoube.jpg';
-import VictorReis from '../assets/exemplio-team-images/VictorReis.jpg';
-import DaniloPereira from '../assets/exemplio-team-images/DaniloPereira.jpg';
-import VitorHugo from '../assets/exemplio-team-images/VitorHugo.jpg';
-import MarcusVinicius from '../assets/exemplio-team-images/MarcusVinicius.jpg';
+import PedroGuerra from 'root/assets/exemplio-team-images/PedroGuerra.jpg';
+import GuilhermeDavid from 'root/assets/exemplio-team-images/GuilhermeDavid.jpg';
+import BrendaMajor from 'root/assets/exemplio-team-images/BrendaMajor.jpg';
+import GuilhermeCoube from 'root/assets/exemplio-team-images/GuilhermeCoube.jpg';
+import VictorReis from 'root/assets/exemplio-team-images/VictorReis.jpg';
+import DaniloPereira from 'root/assets/exemplio-team-images/DaniloPereira.jpg';
+import VitorHugo from 'root/assets/exemplio-team-images/VitorHugo.jpg';
+import MarcusVinicius from 'root/assets/exemplio-team-images/MarcusVinicius.jpg';
+
+import Navbar from 'root/src/Global Components/Navbar';
+import Footer from 'root/src/Global Components/Footer';
 
 
 export default function AboutUs() {

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './ExampleProfile.css';
-import Navbar from '../../Components/Navbar.js';
-import Footer from '../../Components/Footer.js';
+import Navbar from 'root/src/Global Components/Navbar';
+import Footer from 'root/src/Global Components/Footer';
 import { normalizePodcastUrl } from './utils';
 
-import locationIcon from '../../assets/locationIcon.svg'
+import locationIcon from 'root/assets/locationIcon.svg'
 
 /*
 -> Align "justified" text inside everything (don't align to the left)

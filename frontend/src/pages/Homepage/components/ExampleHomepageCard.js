@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
-import exemplioLogo from '../../../assets/LogoVertical.svg';
+import exemplioLogo from 'root/assets/LogoVertical.svg';
 
-export default function ExampleCard(props) {
+export default function ExampleHomepageCard(props) {
     const [ imageLink, setImageLink ] = useState(exemplioLogo);
     const [ name, setName ] = useState('Carregando nome...');
     const [ tags, setTags ] = useState('Carregando tags...');

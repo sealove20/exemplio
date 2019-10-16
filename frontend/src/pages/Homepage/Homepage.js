@@ -1,16 +1,16 @@
 import React, {useState, useEffect} from 'react';
 
 import './Homepage.css';
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
+import Navbar from 'root/src/Global Components/Navbar';
+import Footer from 'root/src/Global Components/Footer';
 
-import exemplioLogo from '../assets/LogoVertical.svg';
-import PerfilGuilhermeDavid from '../assets/exemplio-team-images/GuilhermeDavid.jpg';
-import PerfilBrendaMajor from '../assets/exemplio-team-images/BrendaMajor.jpg';
-import PerfilGuilhermeCoube from '../assets/exemplio-team-images/GuilhermeCoube.jpg';
+import exemplioLogo from 'root/assets/LogoVertical.svg';
+import PerfilGuilhermeDavid from 'root/assets/exemplio-team-images/GuilhermeDavid.jpg';
+import PerfilBrendaMajor from 'root/assets/exemplio-team-images/BrendaMajor.jpg';
+import PerfilGuilhermeCoube from 'root/assets/exemplio-team-images/GuilhermeCoube.jpg';
 
-import api from '../services/api.js';
-import ExampleCard from './Homepage/components/ExampleCard';
+import api from 'root/src/services/api.js';
+import ExampleHomepageCard from './components/ExampleHomepageCard';
 
 
 //Options
@@ -55,12 +55,12 @@ export default function Homepage() {
                         </div>
                         <div className="col-7">
                             <div className="row justify-content-center">
-                                <ExampleCard exampleInfo={examplesList[0]}/>
-                                <ExampleCard exampleInfo={examplesList[1]}/>
+                                <ExampleHomepageCard exampleInfo={examplesList[0]}/>
+                                <ExampleHomepageCard exampleInfo={examplesList[1]}/>
                             </div>
                             <div className="row justify-content-center">
-                                <ExampleCard exampleInfo={examplesList[2]}/>
-                                <ExampleCard exampleInfo={examplesList[3]}/>                                
+                                <ExampleHomepageCard exampleInfo={examplesList[2]}/>
+                                <ExampleHomepageCard exampleInfo={examplesList[3]}/>                                
                             </div>
                         </div>
                     </div>

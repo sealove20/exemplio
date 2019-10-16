@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './ExamplesList.css';
-import Footer from '../Components/Footer.js';
-import Navbar from '../Components/Navbar.js';
+import Footer from 'root/src/Global Components/Footer.js.js';
+import Navbar from 'root/src/Global Components/Navbar.js.js.js';
 
-import locationIcon from '../assets/locationIcon.svg'
-import exemplioLogo from '../assets/LogoVertical.svg';
+import locationIcon from 'root/assets/locationIcon.svg'
+import exemplioLogo from 'root/assets/LogoVertical.svg';
 
-import api from '../services/api'; // -> Comunicar-se como backend!
+import api from 'root/src/services/api'; // -> Comunicar-se como backend!
 
 export default function ExamplesList() {
     const [examplesInfoList, setExamplesInfoList] = useState([]);

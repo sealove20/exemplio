@@ -1,7 +1,7 @@
 import React from 'react';
 import './TermsAndConditions.css';
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
+import Navbar from 'root/src/Global Components/Navbar';
+import Footer from 'root/src/Global Components/Footer';
 
 export default function termsAndConditions() {
     return (

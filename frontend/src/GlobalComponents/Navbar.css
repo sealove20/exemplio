@@ -3,7 +3,6 @@
 Analisar possível problema com CSS que está atrapalhando a disposição dos elementos "row" nas outras páginas!!
 */
 
-@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 *{
   font-family: 'Rubik', sans-serif;
 }
